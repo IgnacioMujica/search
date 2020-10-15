@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <style>
+        body{font-family: arial, sans-serif; margin: 0; padding: 0;}
+        </style>
+    </head>
+    <body>
+        <style>
+            a:link {color: #4285f4;text-decoration: none;font-weight: bold;}
+            a:visited {color:  #4285f4;text-decoration: none;font-weight: bold;}
+            .margin {margin:25px 45px;}
+            .rightalign {float: right;}
+            .leftalign {float: left;}
+            div.topbar {height:60px;background-color:#f1f1f1;padding: 0 20px 0 15px;line-height: 58px;vertical-align: middle;}
+            div.appbar {color:#d93025;font-size:20px; font: arial;border-bottom: 1px solid #ebebeb;margin: 0px 0px 21px 0px;}
+            div.fpw {color: #333;font-size: 16px; text-align: left;margin: 46px 0px 6px 45px;}
+            div.w2d {color: #222;font-size: 13px;font: arial;margin: 0px 0px 10px 45px;}
+            div.boxheight {line-height: 29px;} 
+            input[type=text] {
+                min-width:200px;
+                border-radius: 1px;
+                border: 1px solid #d9d9d9;
+                border-top: 1px solid #c0c0c0;
+                font-size: 13px;
+                height: 25px;
+                width: 554px;
+                padding: 1px 8px;
+                border-top-width: 1px;
+                margin: -1px 0px 0px 32px;
+            }
+            input[type=submit] {
+                background-color: #4d90fe;
+                border: 1px solid #3079ed;
+                border-radius: 2px;
+                font-size: 11px;
+                font-weight: bold;
+                color: #fff;
+                float: right;
+                margin: 10px;
+                padding: 0 12px;
+                height: 30px;
+                min-width: 120px;   
+            }
+        </style>
+        <div class="topbar">
+            <img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="33px" width="92px" style= "vertical-align: middle;">
+            <a href="index.html" class="rightalign">Return to Google Search</a>
+        </div>
+        <div class="appbar">
+            <div class="margin">
+                <label >Advanced Search</label>
+            </div>    
+        </div>
+        <div class="fpw margin">
+            Find pages with...
+        </div>
+        <div class="leftalign margin w2d">
+            <form action="https://www.google.com/search" type="get">
+                    <p><div class="boxheight">all these words:<input type="text" name="as_q" class="rightalign"></div></p>
+                    <p><div class="boxheight">this exact word or phrase:<input type="text" name="as_epq" class="rightalign"></div></p>
+                    <p><div class="boxheight">any of these words:<input type="text" name="as_oq" class="rightalign"></div></p>
+                    <p><div class="boxheight">none of these words:<input type="text" name="as_eq" class="rightalign"></div></p>
+                    <br><br>
+                    <input type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>

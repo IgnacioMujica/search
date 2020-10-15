@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>body{font-family: arial, sans-serif}</style>
+    </head>
+    <body>
+        <style>
+            a:link {color: #4285f4;text-decoration: none;font-weight: bold;}
+            a:visited {color:  #4285f4;text-decoration: none;font-weight: bold;}
+            
+            div.rightalign {float: right;}
+            div.centeralign {text-align: center;float: center;}
+            div.leftalign {float: left;}
+            div.blankzone {height: 205px;}            
+            input[type=text] {
+                width: 582px;
+                height: 44px;
+                display: flex;
+                padding-right: 15px;
+                padding-left: 45px;
+                background: #fff;
+                border: 1px solid #dfe1e5;
+                border-radius: 24px;
+                margin: 0 auto;
+                }
+            input[type=submit] {
+                background-color: #f2f2f2;
+                border: 1px solid #f2f2f2;
+                border-radius: 4px;
+                color: #5F6368;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 30px 4px;
+                padding: 0 16px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;                 
+            }
+            </style>
+        <div class="rightalign">
+            <a href="image_search.html" >Go to Image Search</a>
+            <br><a href="advanced_search.html" >Go to Advanced Search</a>
+        </div>
+        <div class="blankzone"></div>
+        <div class="centeralign">
+            <img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="72"></p>
+            <form action="https://google.com/search">
+                <input type="text" name="q">
+                <div>
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

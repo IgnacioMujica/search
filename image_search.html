@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search</title>
+        <style>body{font-family: arial, sans-serif}</style>
+    </head>
+    <body>
+        <style>
+            a:link {color: #4285f4;text-decoration: none;font-weight: bold;}
+            a:visited {color:  #4285f4;text-decoration: none;font-weight: bold;}
+            div.topbar {font: arial;}
+            div.rightalign {float: right;}
+            div.centeralign {text-align: center;float: center;}
+            div.leftalign {float: left;}  
+            div.blankzone {height: 136px;}
+            div.logo {margin: auto;background-size:272px 92px;height:92px;width:272px;background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");}
+            div.imagestextlogo {color: #4285f4;font: 16px/16px roboto-regular, arial, sans-serif;left: 215px;position: relative;top: 76px;white-space: nowrap;}          
+            input[type=text] {
+                margin:0 auto;
+                height: 44px;
+                width: 582px;
+                flex: 1;
+                display: flex;
+                padding-left: 16px;
+                padding-left: 14px;
+                background: #fff;
+                border: 1px solid #dfe1e5;
+                border-radius: 24px;
+                }
+            input[type=submit] {
+                background-color: #f2f2f2;
+                border: 1px solid #f2f2f2;
+                border-radius: 4px;
+                color: #5F6368;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;                 
+            }
+            </style>
+         <div class="topbar rightalign">
+            <a href="index.html" class="rightalign">Return to Google Search</a>
+        </div>
+        <div class="blankzone"></div>
+        <br>
+        <br>
+        <br>
+            <div class="logo">
+                <div class="imagestextlogo"><span>images</span></div>
+            </div>
+        
+            <div class="centeralign">
+            <form action="https://www.google.com/search" type="get">
+                <input name="tbm" value="isch" type="hidden">
+                <p><input type="text" name="q"></p>
+                <input type="submit" value="Search Google">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
