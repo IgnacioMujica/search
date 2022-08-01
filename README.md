@@ -1,3 +1,3 @@
 # search
-Emmulate google's search engine by use of get requests.
-Make pages with forms for advanced search, image search and normal search.
+Emulate Google's search engine by use of get requests.
+Write pages from scratch with forms for advanced search, image search and normal search.
